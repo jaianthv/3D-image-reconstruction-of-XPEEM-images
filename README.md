@@ -5,3 +5,4 @@ Example of OOMF: <br>
 <IMG SRC="Region23.PNG" height="500" width="500"><br>
 Example of VTK: <br>
 <IMG SRC="Region23_vtk.0000.png" height="500" width="500"><br>
+Please refer 3D_Magnetometry_readme.pdf
