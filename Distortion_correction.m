@@ -24,7 +24,7 @@ ref = imref2d(size(fixed));
 moving_image_registered = imwarp(moving,tform,'OutputView',ref);
 
 % Displays figure with distortion corrected image with reference image
-figure, imshowpair(fortyfivedeg_registered,fixed,'blend')
+figure, imshowpair(moving_image_registered,fixed,'blend')
 
 %%
 
@@ -37,7 +37,7 @@ cd corrected
    baseFileName = sprintf('corrected_AVG_i170726_055_Corr_C+_90D.png');
    %fullFileName = fullfile(Resultados, baseFileName);
    %filename = sprintf('cropped image_srcFiles.name',i)
-   imwrite(fortyfivedeg_registered,baseFileName);
+   imwrite(moving_image_registered,baseFileName);
    %imwrite(I,baseFileName);
    %imwrite(A,map,filename,'gif','LoopCount',Inf,'DelayTime',1)
 
