@@ -1,6 +1,6 @@
 %%
 % To choose the points which moved from the reference image
-h  = cpselect('AVG_i170725_082_C+_Corr_0V.png','AVG_i170726_056_C-_Corr_90D.png');
+h  = cpselect('fixed.png','moving.png');
 %%
 % Close the tool.
 close(h)
