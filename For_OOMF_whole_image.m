@@ -6,14 +6,14 @@ MMy=double.empty();
 MMz=double.empty();
 
 % to extract for OOMF
-for i=1:length(Mx(:,1))
-    for j=1:length(Mx(1,:))
+for i=1:length(MX(:,1))
+    for j=1:length(MX(1,:))
         Unx =  [Unx i];  %x
         Uny =  [Uny j];  %y
         Unz =  [Unz 0];  %z
-        MMx = [MMx Mx(i,j)];
-        MMy = [MMy My(i,j)];
-        MMz = [MMz Mz(i,j)];
+        MMx = [MMx MX(i,j)];
+        MMy = [MMy MY(i,j)];
+        MMz = [MMz MZ(i,j)];
     end
 end
 
